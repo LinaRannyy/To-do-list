@@ -1,0 +1,114 @@
+
+body {
+    background-color: #8298a4;
+    color: rgb(38, 66, 87);
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+body.dark-mode {
+    background-color:#1b1b1b;
+    color: #C1D4DE;
+}
+
+.data {
+    margin-left: 2%;
+}
+
+#darkModeButton, #limpar {
+    background-color: #00CCE8;
+    border: 0px ;
+    border-radius: 5px;
+    padding: 1%;
+}
+
+.container {
+    display: flex;
+    justify-content: start;
+    align-content: end;
+}
+
+ul {
+    background-color: #57717D;
+    width: 100%;
+    max-height:50vh;
+    overflow-y: scroll;
+    border-radius: 10px;
+    padding: 2%;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+#atividade, #dateInput {
+    height: 2.2vh;
+    width: 20%;
+    background-color: #C1D4DE;
+    border: 0px solid rgb(151, 151, 154);
+    border-radius: 5px;
+    padding: 3px;
+}
+
+#dateInput {
+    text-align: center;
+}
+
+#atividade {
+    padding-left: 10px;
+}
+
+#button {
+    width: 15%;
+    height: 3vh;
+    padding: 3px;
+    border-radius: 5px;
+    border: 0px solid rgb(151, 151, 154);
+    background-color: #00CCE8;
+}
+
+main {
+    height: 65vh;
+    width: 65vw;
+    padding: 1%;
+    padding-top: 5%;
+    box-sizing: border-box;
+    margin: 3%;
+}
+
+#top {
+    width: 40vw;
+    height: 5vh;
+    margin-left: 3%;
+    margin-bottom: 150px;
+}
+
+h1 {
+    font-size: 10vh;
+}
+
+li {
+    color: black;
+    font-weight: 500;
+    list-style: none;
+    background-color: #38515d;
+    padding: 10px;
+    border-radius: 10px;
+    height: 5vh;
+    line-height: 5vh;
+    margin-top: 2%;
+}
+
+.apagar {
+    width: 15%;
+    border-radius: 5px;
+    border: 0px;
+    margin-left: 1%;
+}
+
+.checkbox {
+    width: 20px;  
+    height: 20px; 
+    transform: scale(0.8);
+}
+
+.checkbox:checked {
+    background-color: #00CCE8;
+}

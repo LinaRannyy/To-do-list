@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="toDoList.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/locale/pt-br.js"></script>
+    <script>dayjs.locale('pt-br')</script>
+
+    <title>To do List</title>
+
+</head>
+<body>  
+
+    <div id="top">
+        <h1>To Do List:</h1>
+    </div>
+        <main>
+            <form id="form"> <span><button id="limpar">Limpar lista</button></span>
+                <button id="darkModeButton">Dark Mode</button><br><br>
+                <input type="text" placeholder="Digite Atividade" id="atividade" required="required">
+                <input type="date" id="dateInput">
+                <button id="button">Add</button>
+            </form>
+            <div class="container">
+                <ul id="list">
+                </ul>
+            </div>
+        </main>
+
+    <script src="toDoList.js"></script>
+</body>
+</html>
